@@ -10,7 +10,10 @@ from html.parser import HTMLParser
 # إعدادات البوت
 # =========================================================
 
-"TOKEN = "TOKEN HERE
+
+import os
+TOKEN = os.getenv("BOT_TOKEN")
+
 
 ACADEMIC_YEAR = "2026-2027"
 
